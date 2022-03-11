@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    color:purple;
+    /* Generate picture outline text effect
+    background-image: url(purple.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    */
+}
+
+.flex-container {
+    display: flex;
+    background-color: #f4f4f4;
+    /* justify-content: end;
+    height: 500px; 
+    align-items: start; 
+    flex-wrap: wrap;
+    /* width: 400px; */
+    justify-content: start;
+  }  
+
+.item {
+    /* flex-basis: 300px; */
+    flex: 1 0 100px;
+    height: 100px;
+    background: #254de4;
+    color: yellow;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.item:nth-of-type(1) {
+   /* flex-shrink: 1; */
+
+}
+.item:nth-of-type(2) {
+    /* flex-shrink: 2; */
+    
+}
+.item:nth-of-type(3) {
+   /* flex-shrink: 3; */
+    
+}
